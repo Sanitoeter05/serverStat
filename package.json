@@ -1,0 +1,25 @@
+{
+  "name": "serverstat",
+  "version": "1.0.0",
+  "description": "a package to automaticly get server stats on a selfhostet server via a webpage",
+  "keywords": [
+    "server",
+    "management",
+    "statisitcs"
+  ],
+  "homepage": "https://github.com/Sanitoeter05/serverStat#readme",
+  "bugs": {
+    "url": "https://github.com/Sanitoeter05/serverStat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanitoeter05/serverStat.git"
+  },
+  "license": "MIT",
+  "author": "sanismodding",
+  "type": "typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/index.js"
+  }
+}
