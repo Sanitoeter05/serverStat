@@ -17,9 +17,23 @@
   },
   "license": "MIT",
   "author": "sanismodding",
-  "type": "typescript",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch",
     "test": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "childprocess": "^2.0.2",
+    "eslint": "^10.2.0",
+    "prettier": "^3.8.1",
+    "prettier-eslint": "^16.3.0"
   }
 }
