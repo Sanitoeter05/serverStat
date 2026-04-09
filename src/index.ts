@@ -1,10 +1,9 @@
-import { Disk } from "./modules/disk";
-
-const diskIns = new Disk();
+import { ports } from "./modules/ports";
+const portsIns = new ports();
 
 async function main() {
-    const disks = await diskIns.getDisksLinux();
-    console.log(disks);
+    const openPorts = await portsIns.getOpenPortsLinux();
+    console.log(openPorts);
 }
 
 main();
